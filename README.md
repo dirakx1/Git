@@ -23,7 +23,7 @@ To get the master branch from the official zinadev/zina:
         $ git rebase upstream/master
 ```
 
-Your git config file (found on the project root, under ".git/config") must be like below - just change "tiagoprn" to your Github's account name:
+Your git config file (found on the project root, under ".git/config") must be like below - just change "user" to your Github's account name:
 
 ```
 [core]
@@ -32,14 +32,14 @@ Your git config file (found on the project root, under ".git/config") must be li
     bare = false
     logallrefupdates = true
 [remote "origin"]
-    url = https://github.com/tiagoprn/zina.git
+    url = https://github.com/user/project.git
     fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
     remote = origin
     merge = refs/heads/master
 [remote "zina"]
-    url = https://github.com/nokiadev/zina.git
-    fetch = +refs/heads/*:refs/remotes/zina/*
+    url = https://github.com/group/project.git
+    fetch = +refs/heads/*:refs/remotes/project/*
 ```
 
 ## git branching
