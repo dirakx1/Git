@@ -47,6 +47,12 @@ Your git config file (found on the project root, under ".git/config") must be li
 * git checkout -b new_name
 * git push origin new_name
 
+## Branching strategies. 
+
+* Fast-forward merge
+* Qa / dev / feture / prod
+* Tagging 
+
 ### Referencies ###
 * http://robots.thoughtbot.com/keeping-a-github-fork-updated
 
