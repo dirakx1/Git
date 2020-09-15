@@ -54,7 +54,7 @@ Your git config file (found on the project root, under ".git/config") must be li
 * Tagging 
 
 ## Git flow 
-* git flow package to set brnaching, releases etc
+* git flow package to set branching, releases etc
 
 ### Referencies ###
 * http://robots.thoughtbot.com/keeping-a-github-fork-updated
