@@ -53,6 +53,9 @@ Your git config file (found on the project root, under ".git/config") must be li
 * Qa / dev / feture / prod
 * Tagging 
 
+## Git flow 
+* git flow package to set brnaching, releases etc
+
 ### Referencies ###
 * http://robots.thoughtbot.com/keeping-a-github-fork-updated
 
