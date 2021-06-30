@@ -50,11 +50,18 @@ Your git config file (found on the project root, under ".git/config") must be li
 ## Branching strategies. 
 
 * Fast-forward merge
-* Qa / dev / feture / prod
+* Qa / dev / feature / prod
 * Tagging 
 
 ## Git flow 
-* git flow package to set branching, releases etc
+* git flow package to set branching, releases etc (automatic configuration)
+
+## Git rebase
+* git rebase HEAD  (squash reword, pick) 
+* git push -f 
+
+## Git commit 
+* git commit --ammend
 
 ### Referencies ###
 * http://robots.thoughtbot.com/keeping-a-github-fork-updated
